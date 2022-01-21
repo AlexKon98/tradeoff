@@ -411,7 +411,7 @@ h2 span {
     line-height: 28px;
     color: #0C0C0C;
     padding: 18px 45px;
-    z-index: 2;
+    z-index: 5;
 }
 
 .difference-slider__btn::before {
@@ -419,7 +419,7 @@ h2 span {
     top: -12px;
     left: -36px;
     content: url(img/btn-svg.svg);
-    z-index: 3;
+    z-index: 6;
 }
 
 .difference-slider__button {
