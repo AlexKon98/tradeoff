@@ -103,7 +103,8 @@ h1 {
 
 .decor {
     height: calc(100vh - 261.39px);
-    padding-top: 283px;
+    display: flex;
+    align-items: center;
     margin: 0 auto;
     background: rgba(54, 53, 53, 0.52);
     background-image: url(img/decor-background.png);
