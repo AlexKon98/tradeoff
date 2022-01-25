@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/twentytwenty.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/case.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__future">Мы смотрим в будущее и устанавливаем тенденции</div>
+                <a href="#" class="header__logo"><img src="assets/img/header-logo.svg" alt=""></a>
+                <a href="tel:+79221434898" class="header__link">+ 7 922-143-48-98</a>
+                <a href="mailto:hello@off-trade.ru" class="header__link">hello@off-trade.ru</a>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__social" href="">
+                            <svg width="32" height="32" viewbox="0 0 32 32" fill="#0C0C0C" xmlns="http://www.w3.org/2000/svg">
+                                <path class="facebook" d="M32 16.098C32 7.20605 24.836 -0.00195312 16 -0.00195312C7.16 4.68751e-05 -0.0039978 7.20605 -0.0039978 16.1C-0.0039978 24.134 5.848 30.794 13.496 32.002V20.752H9.436V16.1H13.5V12.55C13.5 8.51605 15.89 6.28805 19.544 6.28805C21.296 6.28805 23.126 6.60205 23.126 6.60205V10.562H21.108C19.122 10.562 18.502 11.804 18.502 13.078V16.098H22.938L22.23 20.75H18.5V32C26.148 30.792 32 24.132 32 16.098Z" fill="#88DB05"/>
+                                </svg>
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__social" href="">
+                            <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#88DB05"/>
+                                <path d="M23.5901 10.69C22.5933 10.4708 21.6915 9.94144 21.0142 9.17789C20.3369 8.41435 19.9189 7.45587 19.8201 6.44V6H16.3701V19.67C16.3708 20.2766 16.1807 20.868 15.8266 21.3604C15.4725 21.8529 14.9724 22.2215 14.3972 22.414C13.822 22.6065 13.2008 22.6131 12.6216 22.4329C12.0424 22.2527 11.5346 21.8948 11.1701 21.41C10.8436 20.9808 10.6436 20.4689 10.5929 19.932C10.5421 19.3951 10.6426 18.8548 10.8829 18.372C11.1233 17.8892 11.4939 17.4834 11.9529 17.2003C12.4118 16.9172 12.9409 16.7681 13.4801 16.77C13.7784 16.7683 14.0751 16.8121 14.3601 16.9V13.4C14.0285 13.3589 13.6943 13.3422 13.3601 13.35C12.1295 13.3829 10.9351 13.7739 9.92323 14.4753C8.91139 15.1766 8.12604 16.1578 7.66332 17.2986C7.20061 18.4395 7.08062 19.6905 7.31806 20.8986C7.5555 22.1066 8.14006 23.2191 9.00015 24.1C9.88163 24.9962 11.0096 25.6101 12.2408 25.8638C13.472 26.1175 14.7509 25.9994 15.9148 25.5246C17.0787 25.0498 18.0753 24.2397 18.7778 23.1973C19.4803 22.1548 19.857 20.9271 19.8601 19.67V12.67C21.2516 13.6639 22.9202 14.1956 24.6301 14.19V10.79C24.2942 10.7914 23.9591 10.7579 23.6301 10.69H23.5901Z" fill="#0C0C0C"/>
+                                </svg>
+                        </a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__social" href="">
+                            <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#88DB05"/>
+                                <path d="M15.4988 12.6154C13.7068 12.6154 12.2444 14.1363 12.2444 16C12.2444 17.8636 13.7068 19.3845 15.4988 19.3845C17.2908 19.3845 18.7532 17.8636 18.7532 16C18.7532 14.1363 17.2908 12.6154 15.4988 12.6154ZM25.2595 16C25.2595 14.5984 25.2717 13.2095 25.1961 11.8105C25.1204 10.1855 24.7639 8.74333 23.6213 7.55505C22.4763 6.36423 21.092 5.99607 19.5295 5.91736C18.1819 5.83865 16.8464 5.85134 15.5012 5.85134C14.1536 5.85134 12.8181 5.83865 11.4729 5.91736C9.9104 5.99607 8.52368 6.36677 7.3811 7.55505C6.23608 8.74587 5.88207 10.1855 5.80639 11.8105C5.73071 13.2121 5.74291 14.6009 5.74291 16C5.74291 17.399 5.73071 18.7904 5.80639 20.1894C5.88207 21.8144 6.23852 23.2566 7.3811 24.4449C8.52612 25.6357 9.9104 26.0039 11.4729 26.0826C12.8206 26.1613 14.156 26.1486 15.5012 26.1486C16.8489 26.1486 18.1843 26.1613 19.5295 26.0826C21.092 26.0039 22.4788 25.6332 23.6213 24.4449C24.7664 23.2541 25.1204 21.8144 25.1961 20.1894C25.2742 18.7904 25.2595 17.4015 25.2595 16ZM15.4988 21.2076C12.7278 21.2076 10.4915 18.8818 10.4915 16C10.4915 13.1181 12.7278 10.7924 15.4988 10.7924C18.2698 10.7924 20.5061 13.1181 20.5061 16C20.5061 18.8818 18.2698 21.2076 15.4988 21.2076ZM20.7112 11.7953C20.0642 11.7953 19.5418 11.2519 19.5418 10.5791C19.5418 9.90622 20.0642 9.36286 20.7112 9.36286C21.3582 9.36286 21.8806 9.90622 21.8806 10.5791C21.8808 10.7388 21.8507 10.8971 21.792 11.0447C21.7333 11.1924 21.6472 11.3265 21.5385 11.4395C21.4299 11.5525 21.3009 11.6421 21.1589 11.7031C21.017 11.7642 20.8648 11.7955 20.7112 11.7953Z" fill="#0C0C0C"/>
+                                </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="header__nav">
+                <button class="header__btn header__btn-active">Creative&Production</button>
+                <button class="header__btn">New Placement</button>
+                <button class="header__btn">Эксклюзивные Команды</button>
+                <button class="header__btn">Контакты</button>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="decor" id="decor">
+            <div class="container">
+                <div class="decor__wrapper">
+                    <h1><span class="heading__background">Оформление категории «Благородные Сыры»</span></h1>
+                </div>
+            </div>
+        </section>
+        <section class="task">
+            <div class="container">
+                <div class="task__flex">
+                    <h2>Задача</h2>
+                    <div class="task__content">
+                        <div class="task__text">
+                            Выделить категорию для привлечения внимания посетителей торговой точки, особо подчеркнув зону благородных сыров
+                        </div>
+                        <div class="task__list-heading">
+                            Оформить сырную категорию в 12 ТТ Лента по адресам:
+                        </div>
+                        <ul class="task__list">
+                            <li class="task__item">
+                                ТК 183 г. Москва, п. Воскресенское, Чечёрский пр-д, д. 51
+                            </li>
+                            <li class="task__item">
+                                ТК 318 Санкт-Петербург, ул. Коллонтай, 10
+                            </li>
+                            <li class="task__item">
+                                ТК 49 Санкт-Петербург, Лиговский пр., 283
+                            </li>
+                            <li class="task__item">
+                                ТК 9 Санкт-Петербург, ул. Уральская, д.29 лит.А
+                            </li>
+                            <li class="task__item">
+                                ТК 124 г. Москва, ул. 7-я Кожуховская, д. 9
+                            </li>
+                            <li class="task__item">
+                                ТК 128 Московская обл., г. Балашиха, мкр Саввино, ул. Пригородная, стр. 90
+                            </li>
+                            <li class="task__item">
+                                ТК 142 г. Москва, г. Троицк, Калужское шоссе 42-й (п. Краснопахорское) км., 6
+                            </li>
+                            <li class="task__item">
+                                ТК 168 Московская обл, Истринский р-н, г. Истра, ул. Московская, стр. 61
+                            </li>
+                            <li class="task__item">
+                                ТК 292 г. Москва, Московский п., д. Говорово, МКАД 47 км., стр.20
+                            </li>
+                            <li class="task__item">
+                                ТК 302 г. Москва, ул. Черемушкинская Б,, 1
+                            </li>
+                            <li class="task__item">
+                                ТК 71 Новосибирск Гусинобродское ш., 64
+                            </li>
+                            <li class="task__item">
+                                ТК 45 Ростов-на-Дону, ул. Доватора, 267
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img class="task__figure" src="assets/img/task-figure.png" alt="">
+        </section>
+        <section class="concept">
+            <div class="container">
+                <div class="concept__wrapper">
+                    <h2>Концепт</h2>
+                    <div class="concept__flex">
+                        <div class="concept__text">
+                            Качество и верность традициям мы предлагаем подчеркнуть за счет декора, которой создан вручную. Рукописные таблички, декор из высушенных трав, ящики для вина — все эти элементы выгодно сочетаются между собой, акцентируя внимание покупателя на традиционном
+                            и семейственном подходе к производству сыров.
+                        </div>
+                        <div class="concept__text-low">
+                            Освещение так же является важной деталью оформления категории. Теплое световое пятно будет выбиваться из холодного освещения точки, создавая у покупателя чувство комфорта и особого отношения.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="case-slider">
+            <div class="container">
+                <div class="case-slider__content">
+                    <button class="case-slider__btn case-slider-prev">
+                        <img src="assets/img/arrow-prev-green.svg" alt="">
+                    </button>
+                    <div class="swiper case-slider__slider">
+                        <div class="swiper-wrapper case-slider__wrapper">
+                            <div class="swiper-slide case-slider__slide">
+                                <img class="case-slider__img" src="assets/img/case-slider.png" alt="">
+                            </div>
+                            <div class="swiper-slide case-slider__slide">
+                                <img class="case-slider__img" src="assets/img/case-slider.png" alt="">
+                            </div>
+                            <div class="swiper-slide case-slider__slide">
+                                <img class="case-slider__img" src="assets/img/case-slider.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="case-slider__btn case-slider-next">
+                        <img src="assets/img/arrow-next-green.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="materials">
+            <div class="container">
+                <div class="materials__flex">
+                    <div class="materials__wrapper">
+                        <h2>Материалы<span>и оборудование</span></h2>
+                        <div class="materials__content">
+                            <ul class="materials__list">
+                                <li class="materials__item">
+                                    Сырная карта
+                                </li>
+                                <li class="materials__item">
+                                    Размеры – 594х841х3 мм
+                                </li>
+                                <li class="materials__item">
+                                    Материал – ПВХ 3 мм, печать 4+0
+                                </li>
+                                <li class="materials__item">
+                                    Крепление – двухсторонний скотч
+                                </li>
+                                <li class="materials__item">
+                                    Мелованные ценники «Корова»
+                                </li>
+                                <li class="materials__item">
+                                    Ценникодержатель шарнирный на подставке, материал – пластик
+                                </li>
+                            </ul>
+                            <div class="materials__text">Круглый световой короб диаметром 600мм. Корпус ПВХ 3мм. Лицевая часть акрил 4мм с пленкой Oracal серия 8500. Светодиодные модули линзованные, белого холодного света 7500. Блок питания 200Вт в комплекте. Крепление - подвесное
+                                к существующей деревянной конструкции за фризом. Вес – 7 кг
+                            </div>
+                        </div>
+                    </div>
+                    <img class="materials-img" src="assets/img/materials__img.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="difference-slider">
+            <div class="container">
+                <div class="difference-slider__content">
+                    <div class="difference-slider__heading">г. Москва, ТЦ «РИО», ул. Б. Черемушкинская, д. 1Г</div>
+                    <div class="difference-slider-block">
+                        <button class="difference-slider__button difference-slider__prev">
+                            <img src="assets/img/arrow-white-prev.svg" alt="">
+                        </button>
+                        <button class="difference-slider__button difference-slider__next">
+                            <img src="assets/img/arrow-white-next.svg" alt="">
+                        </button>
+                        <div class="swiper difference-slider__slider">
+                            <div class="swiper-wrapper difference-slider__wrapper">
+                                <div class="swiper-slide difference-slider__slider">
+                                    <div class="image-comparison">
+                                        <img src="assets/img/1.jpg" alt="">
+                                        <img src="assets/img/2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide difference-slider__slider">
+                                    <div class="image-comparison">
+                                        <img src="assets/img/1.jpg" alt="">
+                                        <img src="assets/img/2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide difference-slider__slider">
+                                    <div class="image-comparison">
+                                        <img src="assets/img/1.jpg" alt="">
+                                        <img src="assets/img/2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="difference-slider__flex">
+                        <div class="difference-slider__text">До</div>
+                        <div class="difference-slider__text">После</div>
+                    </div>
+                    <div class="difference-slider__btn-wrapper">
+                        <button class="difference-slider__btn">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="others">
+            <img class="others__astronaut" src="assets/img/astronaut-shadow.png" alt="">
+            <div class="container">
+                <div class="others__wrapper">
+                    <div class="others__heading">Другие кейсы:</div>
+                    <ul class="others__list">
+                        <li class="others__item">
+                            <img class="others__img" src="#" alt="">
+                            <div class="others__name">Название кейса</div>
+                        </li>
+                        <li class="others__item">
+                            <img class="others__img" src="#" alt="">
+                            <div class="others__name">Название кейса</div>
+                        </li>
+                        <li class="others__item">
+                            <img class="others__img" src="#" alt="">
+                            <div class="others__name">Название кейса</div>
+                        </li>
+                        <li class="others__item">
+                            <img class="others__img" src="#" alt="">
+                            <div class="others__name">Название кейса</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.event.move.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script src="assets/js/case.js"></script>
+</body>
+
+</html>
