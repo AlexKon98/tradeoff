@@ -119,7 +119,7 @@ h1 {
     line-height: 21px;
     color: #88DB05;
     margin-right: 59px;
-    transition: color .3s linear;
+    transition: color .4s linear;
 }
 
 .header__list {
@@ -143,7 +143,12 @@ h1 {
     line-height: 21px;
     color: #FFFFFF;
     margin: 0 38px;
-    transition: color .3s linear;
+    transition: color .4s linear;
+}
+
+.header__btn:hover {
+    color: #88DB05;
+    text-shadow: 0 0 3px #ffffff;
 }
 
 .header__btn-active {
@@ -160,7 +165,7 @@ h1 {
 
 .header__social svg circle,
 .header__social svg .facebook {
-    transition: fill .3s linear;
+    transition: fill .4s linear;
 }
 
 .header__social:hover svg circle,

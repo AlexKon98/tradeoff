@@ -289,7 +289,7 @@
     color: #0C0C0C;
     padding: 18px 45px;
     z-index: 5;
-    transition: background-color .3s linear;
+    transition: background-color .4s linear;
 }
 
 .difference-slider__btn:hover {
