@@ -6,34 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
-    <link rel="stylesheet" href="../normalize.css">
-    <link rel="stylesheet" href="../main.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/twentytwenty.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/new-placement.css">
     <title>Document</title>
 </head>
 
 <body>
     <header class="header" id="header">
-        <div class="header-container">
+        <div class="container">
             <div class="header__wrapper">
                 <div class="header__future">Мы смотрим в будущее и устанавливаем тенденции</div>
-                <a href="#" class="header__logo"><img src="../img/header-logo.svg" alt=""></a>
+                <a href="#" class="header__logo"><img src="assets/img/header-logo.svg" alt=""></a>
                 <a href="tel:+79221434898" class="header__link">+ 7 922-143-48-98</a>
                 <a href="mailto:hello@off-trade.ru" class="header__link">hello@off-trade.ru</a>
                 <ul class="header__list">
                     <li class="header__item">
                         <a class="header__social" href="">
-                            <img src="../img/header-facebook.svg" alt="">
+                            <svg width="32" height="32" viewbox="0 0 32 32" fill="#0C0C0C" xmlns="http://www.w3.org/2000/svg">
+                                <path class="facebook" d="M32 16.098C32 7.20605 24.836 -0.00195312 16 -0.00195312C7.16 4.68751e-05 -0.0039978 7.20605 -0.0039978 16.1C-0.0039978 24.134 5.848 30.794 13.496 32.002V20.752H9.436V16.1H13.5V12.55C13.5 8.51605 15.89 6.28805 19.544 6.28805C21.296 6.28805 23.126 6.60205 23.126 6.60205V10.562H21.108C19.122 10.562 18.502 11.804 18.502 13.078V16.098H22.938L22.23 20.75H18.5V32C26.148 30.792 32 24.132 32 16.098Z" fill="#88DB05"/>
+                            </svg>
                         </a>
                     </li>
                     <li class="header__item">
                         <a class="header__social" href="">
-                            <img src="../img/header-tiktok.svg" alt="">
+                            <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#88DB05"/>
+                                <path d="M23.5901 10.69C22.5933 10.4708 21.6915 9.94144 21.0142 9.17789C20.3369 8.41435 19.9189 7.45587 19.8201 6.44V6H16.3701V19.67C16.3708 20.2766 16.1807 20.868 15.8266 21.3604C15.4725 21.8529 14.9724 22.2215 14.3972 22.414C13.822 22.6065 13.2008 22.6131 12.6216 22.4329C12.0424 22.2527 11.5346 21.8948 11.1701 21.41C10.8436 20.9808 10.6436 20.4689 10.5929 19.932C10.5421 19.3951 10.6426 18.8548 10.8829 18.372C11.1233 17.8892 11.4939 17.4834 11.9529 17.2003C12.4118 16.9172 12.9409 16.7681 13.4801 16.77C13.7784 16.7683 14.0751 16.8121 14.3601 16.9V13.4C14.0285 13.3589 13.6943 13.3422 13.3601 13.35C12.1295 13.3829 10.9351 13.7739 9.92323 14.4753C8.91139 15.1766 8.12604 16.1578 7.66332 17.2986C7.20061 18.4395 7.08062 19.6905 7.31806 20.8986C7.5555 22.1066 8.14006 23.2191 9.00015 24.1C9.88163 24.9962 11.0096 25.6101 12.2408 25.8638C13.472 26.1175 14.7509 25.9994 15.9148 25.5246C17.0787 25.0498 18.0753 24.2397 18.7778 23.1973C19.4803 22.1548 19.857 20.9271 19.8601 19.67V12.67C21.2516 13.6639 22.9202 14.1956 24.6301 14.19V10.79C24.2942 10.7914 23.9591 10.7579 23.6301 10.69H23.5901Z" fill="#0C0C0C"/>
+                            </svg>
                         </a>
                     </li>
                     <li class="header__item">
                         <a class="header__social" href="">
-                            <img src="../img/header-inst.svg" alt="">
+                            <svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#88DB05"/>
+                                <path d="M15.4988 12.6154C13.7068 12.6154 12.2444 14.1363 12.2444 16C12.2444 17.8636 13.7068 19.3845 15.4988 19.3845C17.2908 19.3845 18.7532 17.8636 18.7532 16C18.7532 14.1363 17.2908 12.6154 15.4988 12.6154ZM25.2595 16C25.2595 14.5984 25.2717 13.2095 25.1961 11.8105C25.1204 10.1855 24.7639 8.74333 23.6213 7.55505C22.4763 6.36423 21.092 5.99607 19.5295 5.91736C18.1819 5.83865 16.8464 5.85134 15.5012 5.85134C14.1536 5.85134 12.8181 5.83865 11.4729 5.91736C9.9104 5.99607 8.52368 6.36677 7.3811 7.55505C6.23608 8.74587 5.88207 10.1855 5.80639 11.8105C5.73071 13.2121 5.74291 14.6009 5.74291 16C5.74291 17.399 5.73071 18.7904 5.80639 20.1894C5.88207 21.8144 6.23852 23.2566 7.3811 24.4449C8.52612 25.6357 9.9104 26.0039 11.4729 26.0826C12.8206 26.1613 14.156 26.1486 15.5012 26.1486C16.8489 26.1486 18.1843 26.1613 19.5295 26.0826C21.092 26.0039 22.4788 25.6332 23.6213 24.4449C24.7664 23.2541 25.1204 21.8144 25.1961 20.1894C25.2742 18.7904 25.2595 17.4015 25.2595 16ZM15.4988 21.2076C12.7278 21.2076 10.4915 18.8818 10.4915 16C10.4915 13.1181 12.7278 10.7924 15.4988 10.7924C18.2698 10.7924 20.5061 13.1181 20.5061 16C20.5061 18.8818 18.2698 21.2076 15.4988 21.2076ZM20.7112 11.7953C20.0642 11.7953 19.5418 11.2519 19.5418 10.5791C19.5418 9.90622 20.0642 9.36286 20.7112 9.36286C21.3582 9.36286 21.8806 9.90622 21.8806 10.5791C21.8808 10.7388 21.8507 10.8971 21.792 11.0447C21.7333 11.1924 21.6472 11.3265 21.5385 11.4395C21.4299 11.5525 21.3009 11.6421 21.1589 11.7031C21.017 11.7642 20.8648 11.7955 20.7112 11.7953Z" fill="#0C0C0C"/>
+                            </svg>
                         </a>
                     </li>
                 </ul>
@@ -63,7 +72,7 @@
                     <h2>Аренда холодильной полки в торговых сетях:</h2>
                     <div class="rent__flex">
                         <div class="rent__picture">
-                            <img class="rent__img" src="../img/fridge.png" alt="">
+                            <img class="rent__img" src="assets/img/fridge.png" alt="">
                         </div>
                         <div class="rent__content">
                             <div class="rent__text">
@@ -71,8 +80,30 @@
                             </div>
                             <form class="rent__form" action="#">
                                 <h3 class="rent__form-heading">Оставить заявку</h3>
-                                <div class="rent__form-wrapper">
-                                    <input type="text">
+                                <label for="name" class="rent__form-label">
+                                    <input class="rent__input" type="text" id="name" name="name" placeholder="Ваше имя">
+                                    <img class="rent__angle left-top" src="assets/img/left-top.svg" alt="">
+                                    <img class="rent__angle left-bottom" src="assets/img/left-bottom.svg" alt="">
+                                    <img class="rent__angle right-top" src="assets/img/right-top.svg" alt="">
+                                    <img class="rent__angle right-bottom" src="assets/img/right-bottom.svg" alt="">
+                                </label>
+                                <label for="tel" class="rent__form-label">
+                                    <input class="rent__input" type="text" id="tel" name="tel" placeholder="Ваш номер телефона">
+                                    <img class="rent__angle left-top" src="assets/img/left-top.svg" alt="">
+                                    <img class="rent__angle left-bottom" src="assets/img/left-bottom.svg" alt="">
+                                    <img class="rent__angle right-top" src="assets/img/right-top.svg" alt="">
+                                    <img class="rent__angle right-bottom" src="assets/img/right-bottom.svg" alt="">
+                                </label>
+                                <label for="email" class="rent__form-label">
+                                    <input class="rent__input" type="text" id="email" name="email" placeholder="Ваш Email">
+                                    <img class="rent__angle left-top" src="assets/img/left-top.svg" alt="">
+                                    <img class="rent__angle left-bottom" src="assets/img/left-bottom.svg" alt="">
+                                    <img class="rent__angle right-top" src="assets/img/right-top.svg" alt="">
+                                    <img class="rent__angle right-bottom" src="assets/img/right-bottom.svg" alt="">
+                                </label>
+                                <input class="rent__submit" type="submit" value="Оставить заявку">
+                                <div class="rent__paragraph">
+                                    Нажимая на кнопку «Оставить заявку» вы подтверждаете своё согласие на <a class="rent__form-link" href="#">обработку персональных данных</a>
                                 </div>
                             </form>
                         </div>
@@ -80,8 +111,192 @@
                 </div>
             </div>
         </section>
+        <section class="freezer">
+            <div class="container">
+                <div class="freezer__wrapper">
+                    <h2>Холодильники в аренду</h2>
+                    <ul class="freezer__list">
+                        <li class="freezer__item">
+                            <img class="freezer__image" src="assets/img/freezer-one-small.png" alt="">
+                            <img class="freezer__img" src="assets/img/freezer-one.png" alt="">
+                            <div class="freezer__flex">
+                                <h4>Холодильник <br> “Frigoglass Easy Reach”</h4>
+                                <img class="freezer__line" src="assets/img/size.svg" alt="">
+                                <div class="freezer__wrapper-text">
+                                    <h6 class="freezer__heading-low">Габариты:</h6>
+                                    <div class="freezer__size">654х710х1429 мм</div>
+                                </div>
+                                <div class="freezer__wrapper-size">
+                                    <h6>Размеры полок:</h6>
+                                    <div class="freezer__size">Базовая 543х402 мм,</div>
+                                    <div class="freezer__size">Средняя 535х340 мм,</div>
+                                    <div class="freezer__size">Верхняя 535х275 мм</div>
+                                </div>
+                                <img class="freezer__temp" src="assets/img/temperature.svg" alt="">
+                                <div class="freezer__wrapper-size">
+                                    <h6>Температура:</h6>
+                                    <div class="freezer__temperature">+2...+7 t, C</div>
+                                </div>
+                                <h6>Светодиодная подсветка</h6>
+                            </div>
+                        </li>
+                        <li class="freezer__item">
+                            <img class="freezer__image" src="assets/img/freezer-two-small.png" alt="">
+                            <img class="freezer__img" src="assets/img/freezer-two.png" alt="">
+                            <div class="freezer__flex">
+                                <h4>Холодильник <br> “Brandford Luna Express”</h4>
+                                <img class="freezer__line" src="assets/img/size.svg" alt="">
+                                <div class="freezer__wrapper-text">
+                                    <h6 class="freezer__heading-low">Габариты:</h6>
+                                    <div class="freezer__size">650х761х1769 мм</div>
+                                </div>
+                                <div class="freezer__wrapper-text">
+                                    <h6>Размеры полок:</h6>
+                                    <div class="freezer__size">Базовая 570х350 мм,</div>
+                                    <div class="freezer__size">Средняя 570х420 мм,</div>
+                                    <div class="freezer__size">Верхняя 570х310 мм</div>
+                                </div>
+                                <div class="freezer__wrapper-text">
+                                    <h6>Площадь установи:</h6>
+                                    <div class="freezer__size">0,51 м2.</div>
+                                </div>
+                                <div class="freezer__wrapper-text">
+                                    <h6>Общий объем:</h6>
+                                    <div class="freezer__size">255 л</div>
+                                </div>
+                                <img class="freezer__temp" src="assets/img/temperature.svg" alt="">
+                                <div class="freezer__wrapper-size">
+                                    <h6>Температура:</h6>
+                                    <div class="freezer__temperature">+1...+7 t, C</div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="display">
+            <div class="container">
+                <h2>Арт-дисплеи для холодильников:</h2>
+                <div class="display__wrapper">
+                    <div class="display__picture">
+                        <img class="display__img-left" src="assets/img/display-left.png" alt="">
+                    </div>
+                    <div class="display__flex">
+                        <div class="display__text">
+                            Чтобы создать разнообразные эффекты, мы вкладываем в него частичку волшебства:
+                        </div>
+                        <ul class="display__list">
+                            <li class="display__item">
+                                <span>Добавляем элегантное освещение</span>
+                            </li>
+                            <li class="display__item">
+                                <span>Интегрируем датчики движения для создания очаровательных ароматов</span>
+                            </li>
+                            <li class="display__item">
+                                <span>Внедряем 3D-проекции или даже прозрачные сенсорные экраны</span>
+                            </li>
+                        </ul>
+                        <div class="display__flex-pic">
+                            <img class="display__img-right" src="assets/img/display-right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="categories">
+            <div class="container">
+                <h2>Категории, с которыми мы работаем</h2>
+                <div class="categories__wrapper">
+                    <img class="categories__img" src="assets/img/categories.png" alt="">
+                    <div class="categories__flex">
+                        <ul class="categories__list">
+                            <li class="categories__item">Алкоголь крепкий</li>
+                            <li class="categories__item">Вино и шампанское</li>
+                            <li class="categories__item">Сыры</li>
+                            <li class="categories__item">Колбасные изделия и мясные делекатесы</li>
+                            <li class="categories__item">Мясо</li>
+                            <li class="categories__item">Птица</li>
+                        </ul>
+                        <ul class="categories__list">
+                            <li class="categories__item">Молочные продукты</li>
+                            <li class="categories__item">Безалкогольные напитки</li>
+                            <li class="categories__item">Пиво и напитки слабоалкогольные</li>
+                            <li class="categories__item">Детское питание</li>
+                            <li class="categories__item">Овощи</li>
+                            <li class="categories__item">Яйцо</li>
+                        </ul>
+                        <ul class="categories__list">
+                            <li class="categories__item">Кондитерские изделия короткого срока хранения</li>
+                            <li class="categories__item">Готовая еда</li>
+                            <li class="categories__item">Масло, майонез</li>
+                            <li class="categories__item">Рыба и морепродукты охлажденные</li>
+                            <li class="categories__item">Фрукты, ягоды</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefits">
+            <div class="container">
+                <h2>Основные премущества:</h2>
+                <div class="benefits__wrapper">
+                    <ul class="benefits__list">
+                        <li class="benefits__item">
+                            <div class="benefits__digit">01</div>
+                            <div class="benefits__heading">
+                                Увеличение продаж, при сохранении регулярной цены
+                            </div>
+                            <div class="benefits__text">
+                                При сохранении регулярной цены используя маркетинговый и инвестиционный бюджеты в счёт букирования дополнительного места продаж и аренды XO, вы фактически увеличите oftake от 20%*, отказавшись от ценового промо (или 1+1)
+                            </div>
+                        </li>
+                        <li class="benefits__item">
+                            <div class="benefits__digit">02</div>
+                            <div class="benefits__heading">
+                                Упаковка проекта “под ключ”
+                            </div>
+                            <div class="benefits__text">
+                                Мы берем на себя все технические и маркетинговые процессы, связанные с установкой и обслуживанием.
+                            </div>
+                        </li>
+                        <li class="benefits__item">
+                            <div class="benefits__digit">03</div>
+                            <div class="benefits__heading">
+                                Быстрое расширение квот
+                            </div>
+                            <ul class="benefits__content">
+                                <li class="benefits__item-list">Под новинки</li>
+                                <li class="benefits__item-list">Под сезонных SKU</li>
+                                <li class="benefits__item-list">Под InOut</li>
+                            </ul>
+                        </li>
+                        <li class="benefits__item">
+                            <div class="benefits__digit">04</div>
+                            <div class="benefits__heading">
+                                Сокращение OPEX
+                            </div>
+                            <ul class="benefits__content">
+                                <li class="benefits__item-list">Амортизация</li>
+                                <li class="benefits__item-list">Обслуживание</li>
+                                <li class="benefits__item-list">Хранение</li>
+                                <li class="benefits__item-list">Утилизация</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="geography">
+            <div class="container">
+                <h2>География проекта РФ:</h2>
+                <div class="geography__wrapper">
+                    <img class="geography__img" src="assets/img/russia.svg" alt="">
+                </div>
+            </div>
+        </section>
     </main>
-    <script src="./index.js"></script>
+    <script src="assets/js/new-placement.js"></script>
 </body>
 
 </html>
